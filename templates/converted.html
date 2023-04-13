@@ -1,0 +1,16 @@
+{% extends "index.html" %}
+
+{% block title %}Converted{% endblock %}
+
+{% block content %}
+<div>
+    <h2>To:</h2>
+    <p>{{ to_curr }}</p>
+
+    <h2>From:</h2>
+    <p>{{ from_curr }}</p>
+
+    <h2>Converted to:</h2>
+    <p>{{ new_amt }}</p>
+</div>
+{% endblock %}
